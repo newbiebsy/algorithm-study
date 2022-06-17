@@ -2,8 +2,9 @@ package algorithm_study;
 
 import java.util.Scanner;
 
-public class CaesarCipher {
+public class Baekjoon5598 {
 	public static void main(String[] args) {
+		// BufferedReader 사용이 더 빠르다.
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("단어 입력 : ");
