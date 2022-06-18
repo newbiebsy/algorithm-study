@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Baekjoon5598 {
 	public static void main(String[] args) {
+		
 		// BufferedReader 사용이 더 빠르다.
 		Scanner sc = new Scanner(System.in);
 		
@@ -15,6 +16,7 @@ public class Baekjoon5598 {
 		for(int i=0; i<cipher.length();i++) {
 			char t = cipher.charAt(i);
 			
+			// 65 66 67 ==> A B C
 			if(t<= 67) {
 				result += (char)(t+23);
 			}else {
